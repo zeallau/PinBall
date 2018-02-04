@@ -33,7 +33,7 @@ public class BrightnessRegulator : MonoBehaviour
         }
         else if (tag == "SmallCloudTag" || tag == "LargeCloudTag")
         {
-            this.defaultColor = Color.blue;
+            this.defaultColor = Color.cyan;
         }
 
         //オブジェクトにアタッチしているMaterialを取得
